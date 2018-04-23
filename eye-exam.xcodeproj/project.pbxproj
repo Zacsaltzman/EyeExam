@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		D331DD88208A26CD0022EFB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DD87208A26CD0022EFB9 /* AppDelegate.swift */; };
-		D331DD8A208A26CD0022EFB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DD89208A26CD0022EFB9 /* ViewController.swift */; };
+		D331DD8A208A26CD0022EFB9 /* ScoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DD89208A26CD0022EFB9 /* ScoresVC.swift */; };
 		D331DD8D208A26CD0022EFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D331DD8B208A26CD0022EFB9 /* Main.storyboard */; };
 		D331DD90208A26CD0022EFB9 /* eye_exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D331DD8E208A26CD0022EFB9 /* eye_exam.xcdatamodeld */; };
 		D331DD92208A26CD0022EFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D331DD91208A26CD0022EFB9 /* Assets.xcassets */; };
 		D331DD95208A26CD0022EFB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D331DD93208A26CD0022EFB9 /* LaunchScreen.storyboard */; };
+		D331DDA0208A2C590022EFB9 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DD9F208A2C590022EFB9 /* UIViewControllerExt.swift */; };
+		D331DDA2208A2C830022EFB9 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DDA1208A2C830022EFB9 /* UIViewExt.swift */; };
+		D331DDA4208A32720022EFB9 /* NameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DDA3208A32720022EFB9 /* NameVC.swift */; };
+		D331DDA6208A35990022EFB9 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DDA5208A35990022EFB9 /* PatientCell.swift */; };
+		D331DDA8208A3C090022EFB9 /* ExamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DDA7208A3C090022EFB9 /* ExamVC.swift */; };
+		D331DDAA208A48070022EFB9 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331DDA9208A48070022EFB9 /* StringExt.swift */; };
+		D3EDC8EC208AD7BB00CBE9F3 /* ColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDC8EB208AD7BB00CBE9F3 /* ColorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D331DD84208A26CD0022EFB9 /* eye-exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eye-exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D331DD87208A26CD0022EFB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D331DD89208A26CD0022EFB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D331DD89208A26CD0022EFB9 /* ScoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresVC.swift; sourceTree = "<group>"; };
 		D331DD8C208A26CD0022EFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D331DD8F208A26CD0022EFB9 /* eye_exam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eye_exam.xcdatamodel; sourceTree = "<group>"; };
 		D331DD91208A26CD0022EFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D331DD94208A26CD0022EFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D331DD96208A26CD0022EFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D331DD9F208A2C590022EFB9 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		D331DDA1208A2C830022EFB9 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		D331DDA3208A32720022EFB9 /* NameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameVC.swift; sourceTree = "<group>"; };
+		D331DDA5208A35990022EFB9 /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		D331DDA7208A3C090022EFB9 /* ExamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamVC.swift; sourceTree = "<group>"; };
+		D331DDA9208A48070022EFB9 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		D3EDC8EB208AD7BB00CBE9F3 /* ColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +70,10 @@
 		D331DD86208A26CD0022EFB9 /* eye-exam */ = {
 			isa = PBXGroup;
 			children = (
+				D331DD9E208A272F0022EFB9 /* Extensions */,
+				D331DD9D208A272A0022EFB9 /* View */,
+				D331DD9C208A271E0022EFB9 /* Controller */,
 				D331DD87208A26CD0022EFB9 /* AppDelegate.swift */,
-				D331DD89208A26CD0022EFB9 /* ViewController.swift */,
 				D331DD8B208A26CD0022EFB9 /* Main.storyboard */,
 				D331DD91208A26CD0022EFB9 /* Assets.xcassets */,
 				D331DD93208A26CD0022EFB9 /* LaunchScreen.storyboard */,
@@ -65,6 +81,35 @@
 				D331DD8E208A26CD0022EFB9 /* eye_exam.xcdatamodeld */,
 			);
 			path = "eye-exam";
+			sourceTree = "<group>";
+		};
+		D331DD9C208A271E0022EFB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D331DD89208A26CD0022EFB9 /* ScoresVC.swift */,
+				D331DDA3208A32720022EFB9 /* NameVC.swift */,
+				D331DDA7208A3C090022EFB9 /* ExamVC.swift */,
+				D3EDC8EB208AD7BB00CBE9F3 /* ColorVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D331DD9D208A272A0022EFB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D331DDA5208A35990022EFB9 /* PatientCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D331DD9E208A272F0022EFB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D331DD9F208A2C590022EFB9 /* UIViewControllerExt.swift */,
+				D331DDA1208A2C830022EFB9 /* UIViewExt.swift */,
+				D331DDA9208A48070022EFB9 /* StringExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D331DD8A208A26CD0022EFB9 /* ViewController.swift in Sources */,
+				D331DDA6208A35990022EFB9 /* PatientCell.swift in Sources */,
+				D331DD8A208A26CD0022EFB9 /* ScoresVC.swift in Sources */,
+				D3EDC8EC208AD7BB00CBE9F3 /* ColorVC.swift in Sources */,
 				D331DD88208A26CD0022EFB9 /* AppDelegate.swift in Sources */,
+				D331DDA8208A3C090022EFB9 /* ExamVC.swift in Sources */,
+				D331DDAA208A48070022EFB9 /* StringExt.swift in Sources */,
+				D331DDA2208A2C830022EFB9 /* UIViewExt.swift in Sources */,
+				D331DDA4208A32720022EFB9 /* NameVC.swift in Sources */,
+				D331DDA0208A2C590022EFB9 /* UIViewControllerExt.swift in Sources */,
 				D331DD90208A26CD0022EFB9 /* eye_exam.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
